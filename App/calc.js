@@ -1,9 +1,8 @@
-const fs = require('fs')
+const _ = require('lodash')
+const numsFromJson = require('./readFromJson')
 
-const numsFromJson = fs.readFileSync('data.json')
-const numsObject = JSON.parse(numsFromJson)
+const nums = numsFromJson.numsObject.numbers
 
-const nums = numsObject.numbers
 
 const sumFromJson = nums.reduce((num, val) => num + val, 0)
 
