@@ -19,6 +19,7 @@
   "homepage": "https://github.com/SindiMio98/FirstNodeApp#readme",
   "dependencies": {
     "lodash": "^4.17.21",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "sorted-array-async": "0.0.7"
   }
 }

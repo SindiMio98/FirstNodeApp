@@ -15,6 +15,4 @@ function sum(arr) {
     }, sumFromJson)
 }
 
-module.exports.sum = sum
-
-module.exports.sum= sum;
+module.exports.sum = sum;
